@@ -1,0 +1,10 @@
+#dropzone {
+  height: 80px;
+  width: 400px;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.dragover {
+ background-color:#b0c4de; 
+}
