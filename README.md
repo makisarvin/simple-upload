@@ -22,6 +22,13 @@ Example:
 	$(function() {
 		$("#dropzone").simpleUpload("http://example.com/upload", "dragover");
 	});
+	
+	and the html code:
+	
+	<div id="dropzone">
+		<input type="file" name="images" multiple>
+
+	</div>
 ```
 
 The ajax request will create a form (multipart/form-data) with name image="file data" from which you can extract the file data and store them. For multiple files there will be one request per file. 
