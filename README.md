@@ -7,13 +7,13 @@ A very simple jQuery plugin that allows for file upload.
 
 ## Setup instructions
 
-The usage is very simple. Check the index.html for the mimimum (and only) way to use it
+The usage is very simple. Check the index.html for the minimum (and only) way to use it
 
 ```sh
 $("your div").simpleUpload(url, cssEffect)
 ```
 
-The url is the url for thr uplaod server and the cssEffect is the name of the class that you want to apply when you drag files over the drop zone. 
+The url is the url for the upload server and the cssEffect is the name of the class that you want to apply when you drag files over the drop zone. 
 
 Example:
 
@@ -22,9 +22,11 @@ Example:
 	$(function() {
 		$("#dropzone").simpleUpload("http://example.com/upload", "dragover");
 	});
+```
 	
 	and the html code:
 	
+```sh	
 	<div id="dropzone">
 		<input type="file" name="images" multiple>
 
@@ -38,7 +40,7 @@ The ajax request will create a form (multipart/form-data) with name image="file 
   Allows to select multiple files at once and upload them simultaneously.
 * **Drag & Drop support:**  
   Allows to upload files by dragging them from your desktop or filemanager and dropping them on your browser window.
-* ** Progress bar: **
+* **Progress bar:**
   Not Supported yet. you can edit the code and implement your own. 
 
 ## Requirements
